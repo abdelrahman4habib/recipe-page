@@ -27,6 +27,7 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
+  margin-bottom: 50px;
   padding: 0 20px;
 }
 .image-container {
@@ -50,8 +51,8 @@ body {
 }
 .title {
   font-size: 24px;
+  font-size: 45px;
   color: #333;
-  text-align: center;
   margin-bottom: 10px;
   font-family: "young serif";
   font-weight: normal;
@@ -145,4 +146,22 @@ ol li {
   text-align: center;
   color: hsl(14, 45%, 36%);
   font-weight: bold;
+}
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 55%;
+}
+footer a {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+footer a:hover {
+  text-decoration: underline;
 }
