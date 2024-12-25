@@ -4,19 +4,25 @@
   box-sizing: border-box;
   margin-top: auto;
 }
+p {
+  color: #666;
+}
 body {
-  font-family: Arial, sans-serif;
-  background-color: hsl(28, 35%, 87%);
+  background-color: hsl(30, 54%, 90%);
   line-height: 1.6;
   display: flex;
   min-height: 200vh;
   justify-content: center;
   align-items: center;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .recipe-card {
   background: #fff;
   width: 90%;
-  max-width: 600px;
+  max-width: 800px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -47,6 +53,9 @@ body {
   color: #333;
   text-align: center;
   margin-bottom: 10px;
+  font-family: "young serif";
+  font-weight: normal;
+  font-style: normal;
 }
 .description {
   text-align: center;
@@ -70,9 +79,12 @@ h3 {
   font-size: 20px;
   color: hsl(14, 45%, 36%);
   margin-bottom: 10px;
-  border-bottom: 2px solid #f4f4f4;
+  border-top: 2px solid #e4dede;
   padding-bottom: 5px;
   padding-left: 15px;
+  font-family: "young serif";
+  font-weight: normal;
+  font-style: normal;
 }
 .Instructions-list {
   list-style: decimal;
